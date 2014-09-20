@@ -18,8 +18,5 @@ int main( int argc, char **argv )
 
   while( 1 ) {
     bcm2835_gpio_write( PIN, HIGH );
-    bcm2835_delayMicroseconds(WAVETIME);
-    bcm2835_gpio_write( PIN, LOW );
-    bcm2835_delayMicroseconds(WAVETIME);
   }
 }
